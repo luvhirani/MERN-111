@@ -1,0 +1,29 @@
+.text{
+    /* color: red;
+    background-color: yellow;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy; */
+    border: 3px solid rgb(38, 77, 106);
+    /* border-radius: 10px; */
+    /* border-bottom: 3px solid black;
+    border-top: 3px solid red; */
+    border-width: 10px;
+}
+
+.box{
+    text-align: justify;
+}
+
+.align{
+text-transform: capitalize;
+text-shadow: 3px 2px 2px red 
+}
+
+#color{
+    /* color: rgb(100, 200, 30);
+    background-color: rgba(234, 50, 9 ,0.5); */
+color: rgb(30, 48, 5);
+background-color: hsl(240, 100%, 50%);
+}

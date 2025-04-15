@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+    <style>
+        /* .para1{
+            visibility: hidden;
+        } */
+         .container{
+            border: 2px solid black;
+            height: 2000px;
+            background-color: beige;
+         }
+         .box{
+            background-color: green;
+            height: 2000px;
+         }
+        .image1{
+            height: 100px;
+            width: 100px;
+            /* position: relative;
+            top: 20px;
+            left: 30px; */
+        }
+        .image2{
+            height: 100px;
+            width: 100px;
+            /* position: absolute;
+            top: 50px; */
+        }
+        .image3{
+            height: 100px;
+            width: 100px;
+            /* position: fixed; */
+            /* position: sticky; */
+            position: relative;
+            /* top: 60px; */
+            z-index: 0;
+        }
+        .image4{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            z-index: 1;
+        }
+        .flexContainer{
+            border: 2px solid black;
+            display: flex;
+            
+        }
+        #item{
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+        }
+        .flexItem1{
+            background-color: red;
+        }
+        .flexItem2{
+            background-color: green;
+        }
+        .flexItem3{
+            background-color: blue;
+        }
+        .flexItem4{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <img src="person.jpg" class="image1" alt="person1">
+        <img src="person.jpg" class="image2" alt="person2">
+        <img src="person.jpg" class="image3" alt="person3">
+        <img src="person.jpg" class="image4" alt="person4">
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet magnam quis rerum magni in reprehenderit voluptatem dolores modi. Nesciunt quasi labore est fugiat quia. Qui sequi quos cupiditate nam deserunt?</p>
+    </div> -->
+
+    <!-- <div class="box"></div> -->
+
+    <div class="flexContainer">
+        <div class="flexItem1" id="item"></div>
+        <div class="flexItem2" id="item"></div>
+        <div class="flexItem3" id="item"></div>
+        <div class="flexItem4" id="item"></div>
+    </div>
+</body>
+</html>
