@@ -5,7 +5,8 @@
 // git remote add origin main "url"
 // git push origin main
 
-// Git Branch - pushing some changes from new branch
+
+// Git Branch 
 // git branch feature / git checkout -b feature
 // git checkout feature
 // git add ./ git add filname
