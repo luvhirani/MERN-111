@@ -12,13 +12,13 @@
 
 
 let orderPizza = new Promise((resolve, reject) => {
-    let isShopOpen = false;
+    let isShopOpen = true;
     
     if(isShopOpen){
         resolve("You can place order")
     }
     else{
-        reject("we are closed today")
+        reject(console.log("we are closed"))
     }
 })
 
@@ -28,9 +28,9 @@ let orderPizza = new Promise((resolve, reject) => {
 
 // async/await
 
-async function placeOrder(isShopOpen) {
+// async function placeOrder(isShopOpen) {
     
-    await 
-}
+//     await 
+// }
 
 
