@@ -34,7 +34,3 @@ catch{
 getUserData();
 
 // console.log("2")
-
-
-
-
