@@ -1,0 +1,17 @@
+.container  {
+   border: 2px solid black;
+   height: 300px;
+   width: 200px;
+   margin: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: row; */
+   justify-content: center;
+   align-items: center;
+
+}
+
+.img{
+    height: 100px;
+    display: block;
+}

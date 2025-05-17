@@ -29,6 +29,22 @@
 //     console.log("This is setInterval")
 // },2000)
 
+// setTimeout(function (){
+//     console.log("This is setTimeout")
+// },2000)
+
+var a = {} 
+
+var b = {key:'b'}; 
+
+var c = {key:'c'};
+
+a[b]=123 
+
+b[c]=456 
+console.log(Object.entries(a))
+console.log(a[b])
+
 //Type Error -> Invalid
 // setTimeout(setInterval(function () {
 //     console.log("This is setTimeout")
