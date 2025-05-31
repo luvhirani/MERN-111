@@ -13,7 +13,7 @@
 // event.on("hello",()=>{
 //     console.log("event is triggered")
 // })
-// event.on("hello",handler )
+// event.on("hello",handler)
 
 // function handler (){
 //     console.log("event is triggered")

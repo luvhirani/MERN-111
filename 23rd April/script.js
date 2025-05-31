@@ -1,6 +1,7 @@
 const http = require("http")
 
 const server = http.createServer((req,res)=>{
+    console.log(req)
     if(req.url==="/users" && req.method==="POST"){
         res.end("User data posted")
     }
@@ -13,6 +14,7 @@ const server = http.createServer((req,res)=>{
     }
 })
 
-server.listen(3001,"localhost",()=>{
-    console.log("server is running on port 3001")
+server.listen(3003,"localhost",()=>{
+    console.log("server is running on port 3003")
 })
+
